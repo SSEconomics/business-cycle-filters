@@ -13,8 +13,8 @@ To make this repository accessible, the code is split into a "Master" file that 
 | **Full Analysis** |
 | `Filters_All` | `[R]` | `[.do]` | The master script. Generates all trend, cycle, and periodogram figures shown in the video. |
 | **Simplified Modules** |
-| `Filters_HP` | `[R]` | `[.do]` | Extracts the trend/cycle using the Hodrick-Prescott filter ($\lambda = 1600$). |
-| `Filters_Hamilton` | `[R]` | `[.do]` | Extracts the cycle using the Hamilton regression filter ($h=8, p=4$). |
+| `Filters_HP` | `[R]` | `[.do]` | Extracts the trend/cycle using the Hodrick-Prescott filter. |
+| `Filters_Hamilton` | `[R]` | `[.do]` | Extracts the cycle using the Hamilton regression filter. |
 | `Filters_GrowthRates` | `[R]` | `[.do]` | Calculates QoQ and YoY growth rates and their spectral densities. |
 | **Data Files** |
 | `CDataQ.csv` | - | - | Quarterly macroeconomic data (Real GDP, etc.). |
@@ -23,7 +23,7 @@ To make this repository accessible, the code is split into a "Master" file that 
 ## The Data
 The datasets provided (`CDataQ.csv` and `CDataM.csv`) contain the raw Canadian macroeconomic data used for the demonstrations. 
 
-*Note: The data generation process and API pulls for these datasets are covered in my comprehensive Statistics Canada data guide. If you want to pull your own updated data, visit the [statscan-econ-data-guide repository](https://github.com/SSEconomics/statscan-econ-data-guide).*
+*Note: These datasets are covered in my comprehensive Canadian data guide. If you want to pull your own updated data, visit the [statscan-econ-data-guide repository](https://github.com/SSEconomics/statscan-econ-data-guide).*
 
 ## 🚀 How to Use This Code
 
