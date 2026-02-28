@@ -3,7 +3,7 @@
 
 [![The Mathematical Illusion Fooling Economists](https://img.youtube.com/vi/gNVQQp7GMEo/maxresdefault.jpg)](https://youtu.be/gNVQQp7GMEo)
 
-This repository contains the **Stata** and **R** code used in the video: [**The Mathematical Illusion Fooling Economists**](https://youtu.be/gNVQQp7GMEo). 
+This repository contains the **Stata** and **R** code used in the video: [**Economists Are Blind to the True Business Cycle**](https://youtu.be/gNVQQp7GMEo). 
 
 It provides the tools to replicate the full spectral analysis, cyclical extraction, and periodograms shown in the video. Whether you are looking to run a simple HP filter or want to prove mathematically why the Hamilton filter collapses into a 2-year growth rate, everything you need is here.
 
